@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fast-stemmer (1.0.2)
+    msgpack (0.5.9)
+    sequel (4.15.0)
+    sqlite3 (1.3.9)
+    stuff-classifier (0.5)
+      fast-stemmer (>= 1.0)
+      msgpack
+      sequel
+      sqlite3
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  stuff-classifier
